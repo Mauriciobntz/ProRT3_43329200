@@ -32,7 +32,7 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Registrarse</a></li>
             <li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
-            <li><a class="dropdown-item" href="#">Contacto</a></li>
+            <li><a class="dropdown-item" href="<?php echo base_url('contacto') ?>">Contacto</a></li>
           </ul>
         </li>
       </ul>
