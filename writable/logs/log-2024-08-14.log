@@ -144,3 +144,57 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
  7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-14 20:55:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/navbar_view.php"
+[Method: GET, Route: quienes_somos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/navbar_view.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('front/navbar_view', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('front/navbar_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->quienes_somos()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-14 20:57:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/navbar_view.php"
+[Method: GET, Route: quienes_somos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/navbar_view.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('front/navbar_view', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('front/navbar_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->quienes_somos()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-14 21:03:04 --> ParseError: syntax error, unexpected string content "/Routes.php;"
+[Method: GET, Route: quienes_somos]
+in APPPATH\Config\Routes.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-14 21:03:06 --> ParseError: syntax error, unexpected string content "/Routes.php;"
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-14 21:04:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/navbar_view.php"
+[Method: GET, Route: quienes_somos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/navbar_view.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('front/navbar_view', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('front/navbar_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->quienes_somos()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -24,8 +24,14 @@ $routes->set404Override();
 // Define the route for the homepage
 $routes->get('/', 'Home::index');
 // Define routes for other methods in the Home controller
+$routes->get('principal', 'Home::index');
 $routes->get('quienes_somos', 'Home::quienes_somos');
 $routes->get('acerca_de', 'Home::acerca_de');
 $routes->get('sign_in', 'Home::sign_in');
 $routes->get('login', 'Home::login');
 $routes->get('contacto', 'Home::contacto');
+
+// Load environment-specific routes if they exist
+if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
+	require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
+}
