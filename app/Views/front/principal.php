@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Euforia</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
+    <link rel="stylesheet" href="<?= base_url('public/mi_estilo/estilo.css') ?>">
   <body>
     <!--navBar-->
       <nav class="navbar navbar-expand-lg">
@@ -30,9 +30,9 @@
             Mi Cuenta
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Registrarse</a></li>
-            <li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
-            <li><a class="dropdown-item" href="#">Contacto</a></li>
+            <li><a class="dropdown-item" href='sign_in'>Registrarse</a></li>
+            <li><a class="dropdown-item" href='login'>Iniciar Sesion</a></li>
+            <li><a class="dropdown-item" href='contacto'>Contacto</a></li>
           </ul>
         </li>
       </ul>

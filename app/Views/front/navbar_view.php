@@ -21,9 +21,9 @@
             Mi Cuenta
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Registrarse</a></li>
-            <li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
-            <li><a class="dropdown-item" href="#">Contacto</a></li>
+            <li><a class="dropdown-item" href='sign_in'>Registrarse</a></li>
+            <li><a class="dropdown-item" href='login'>Iniciar Sesion</a></li>
+            <li><a class="dropdown-item" href='contacto'>Contacto</a></li>
           </ul>
         </li>
       </ul>
