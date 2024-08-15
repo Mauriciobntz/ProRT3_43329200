@@ -6,39 +6,48 @@ class Home extends BaseController
 {
     public function index()
     {
+        $data['titulo']='Principal';
+        echo view('front/head_view', $data);
+        echo view('front/navbar_view');
         echo view('front/principal');
+        echo view('front/footer_view');
     }
     public function quienes_somos()
     {
-        echo view('front/head_view');
+        $data['titulo']='Quienes Somos';
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/quienes_somos');
         echo view('front/footer_view');
     }
     public function acerca_de()
     {
-        echo view('front/head_view');
+        $data['titulo']='Acerca de';
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/acerca_de');
         echo view('front/footer_view');
     }
     public function sign_in()
     {
-        echo view('front/head_view');
+        $data['titulo']='Registro';
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
-        echo view('front/sign_in');
+        echo view('back/usuario/sign_in');
         echo view('front/footer_view');
     }
     public function login()
     {
-        echo view('front/head_view');
+        $data['titulo']='Iniciar Sesion';
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
-        echo view('front/login');
+        echo view('back/usuario/login');
         echo view('front/footer_view');
     }
     public function contacto()
     {
-        echo view('front/head_view');
+        $data['titulo']='Contactanos';
+        echo view('front/head_view', $data);
         echo view('front/navbar_view');
         echo view('front/contacto');
         echo view('front/footer_view');

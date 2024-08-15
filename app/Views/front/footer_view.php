@@ -13,7 +13,7 @@
             <i class="fas fa-gem me-3"></i><img src="assets/img/logo.png" class="d-block w-50" alt="img">
           </h6>
           <p>
-            Somos una empresa dedicada al comercio electronico con sede  en Corrientes Capital, y precencia en el NEA.
+            Somos una empresa dedicada al comercio electronico con sede  en Corrientes Capital, y presencia en el NEA.
           </p>
         </div>
         <!-- Grid column -->

@@ -30,6 +30,13 @@ $routes->get('acerca_de', 'Home::acerca_de');
 $routes->get('sign_in', 'Home::sign_in');
 $routes->get('login', 'Home::login');
 $routes->get('contacto', 'Home::contacto');
+//Rutas sign in
+$routes->get('/sign_in', 'usuario_controller::create');
+$routes->post('/enviar-form', 'usuario_controller::formValidation');
+//Rutas login
+$routes->post('/enviarlogin', 'Login_controller::auth');
+$routes->get('/panel', 'Panel_controller::index', ['filter' => 'auth']);
+$routes->get('/logout', 'Login_controller::logout');
 
 // Load environment-specific routes if they exist
 if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
