@@ -4,7 +4,7 @@ namespace App\Controllers;
 use App\Models\Usuario_Model; // Asegúrate de que el modelo esté correctamente referenciado
 use CodeIgniter\Controller;
 
-class Usuario_controller extends Controller
+class usuario_controller extends Controller
 {
     public function __construct()
     {
@@ -15,7 +15,7 @@ class Usuario_controller extends Controller
     {
         $data['titulo'] = 'Registro';
         echo view('front/head_view', $data);
-        echo view('front/nav_view');
+        echo view('front/navbar_view');
         echo view('back/usuario/sign_in'); // Asumo que este es el nombre de la vista del formulario
         echo view('front/footer_view');
     }
@@ -34,7 +34,7 @@ class Usuario_controller extends Controller
             // Validación fallida
             $data['titulo'] = 'Registro';
             echo view('front/head_view', $data);
-            echo view('front/nav_view');
+            echo view('front/navbar_view');
             echo view('back/usuario/sign_in', ['validation' => $this->validator]);
             echo view('front/footer_view');
         } else {
@@ -51,7 +51,7 @@ class Usuario_controller extends Controller
             session()->setFlashdata('success', 'Usuario registrado con éxito');
 
             // Redirigir al usuario a la página de login
-            return $this->response->redirect('/login');
+            return $this->response->redirect('sign_in');
         }
     }
 }
